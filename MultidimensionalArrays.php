@@ -43,3 +43,27 @@ $drinks =[
 //echo $drinks['type']['juice'] . PHP_EOL; //Here I found that 'juice''s type was 'cold'.
 
 //echo $drinks['person'][2] . PHP_EOL; // Here I found the second index in the 'person' array within the $drinks array.
+
+$pets = [
+    'animals'=> [
+        'cat'=> 'mammal',
+        'dog'=>'mammal',
+        'turtle'=>'reptile',
+        'parrot'=>'bird',
+    ],
+    'names'=> [
+        'Hallie',
+        'Freddie',
+        'Tom',
+        'Louis',
+        'Tonya',
+    ],
+];
+
+//echo $pets['animals']['turtle']. PHP_EOL; // Returns reptile since I am looking for the turtle's type.
+
+//echo $pets['names']['Freddie'] . PHP_EOL; // Returns with an undefined index error because that is
+// how you find a specific index when it's not a key/value pair.
+
+//echo $pets['names'][1] . PHP_EOL; // Returns Freddie because it is on the 1st index on the
+// 'names' array within the $pet's array.

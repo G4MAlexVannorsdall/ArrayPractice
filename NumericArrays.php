@@ -23,5 +23,10 @@ $book_genres = ['fantasy', 'drama', 'historical', 'scifi', 'mystery', 'biography
 
 $cookies = ['chocolate', 'walnut', 'sugar', 'peanut butter', 'gingerbread'];
 
-echo $cookies[3] . PHP_EOL; //Returns the 3rd index of the $cookies array which is peanut butter.
+//echo $cookies[3] . PHP_EOL; //Returns the 3rd index of the $cookies array which is peanut butter.
 
+$ages = [23, 45, 16, 17, 98, 34, 20, 28, 25, 33];
+
+//echo $ages[6] . PHP_EOL; // Finds the number on the 6th index which is 20.
+
+//echo count($ages) . PHP_EOL; // Returns the amount of numbers in the $ages array which is 10.

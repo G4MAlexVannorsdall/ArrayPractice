@@ -38,3 +38,7 @@ $Cities_States = [
 //echo count($Cities_States) . PHP_EOL; // Counts the amount of key/value pairs in $Cities_States which is 6.
 
 //echo $Cities_States['Reno'] . PHP_EOL; // Returns the value paired with the key 'Reno' which is 'Nevada.'
+
+//echo asort($Cities_States) . PHP_EOL; // Sorts the $Cities_States array  in ascending order according to the value.
+
+// echo ksort($Cities_States) . PHP_EOL; // Sorts the $Cities_States array  in ascending order according to the key.

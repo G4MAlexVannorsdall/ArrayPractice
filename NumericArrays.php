@@ -30,3 +30,8 @@ $ages = [23, 45, 16, 17, 98, 34, 20, 28, 25, 33];
 //echo $ages[6] . PHP_EOL; // Finds the number on the 6th index which is 20.
 
 //echo count($ages) . PHP_EOL; // Returns the amount of numbers in the $ages array which is 10.
+
+$numbers = [33,55,77,66,88,99,101,234,44,11];
+
+//echo $numbers[7] . PHP_EOL; // Finds the 7th index in the $numbers array which is 234.
+//echo count($numbers) . PHP_EOL; // Counts the amount of numbers in the $numbers array which is 10.

@@ -42,3 +42,18 @@ $Cities_States = [
 //echo asort($Cities_States) . PHP_EOL; // Sorts the $Cities_States array  in ascending order according to the value.
 
 // echo ksort($Cities_States) . PHP_EOL; // Sorts the $Cities_States array  in ascending order according to the key.
+
+$Colors_Fruit = [
+    'Orange'=>'Peach',
+    'Yellow'=>'Banana',
+    'Green'=>'Kiwi',
+    'Red'=>'Apple',
+    'Pink'=>'Watermelon',
+    'White'=>'Coconut',
+];
+
+//echo $Colors_Fruit['Red'] . PHP_EOL; //Finds the value of Red in the $Colors_Fruit array which is Apple.
+
+//echo $Colors_Fruit['White'] . PHP_EOL; //Finds the value of white in the $Colors_Fruit array which is coconut.
+
+//echo count($Colors_Fruit) . PHP_EOL; // Finds the amount of key/value pairs in the $Colors_Fruit array which is 6.

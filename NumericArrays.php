@@ -35,3 +35,10 @@ $numbers = [33,55,77,66,88,99,101,234,44,11];
 
 //echo $numbers[7] . PHP_EOL; // Finds the 7th index in the $numbers array which is 234.
 //echo count($numbers) . PHP_EOL; // Counts the amount of numbers in the $numbers array which is 10.
+
+$names = ['Beth', 'Charlie', 'Howie', 'Ozzie', 'Tony', 'Gwen', 'Tobias', 'Sookie' ];
+
+//echo $names[4] . PHP_EOL; // Returns the 4th index in the $names array which is Tony.
+
+$veggies = ['Pumpkin', 'Squash', 'Lettuce', 'Bell pepper', 'Peas', 'Broccoli', 'Spinach'];
+//echo $veggies[6] . PHP_EOL; // Returns the 6th index in the $veggies array which is Spinach.

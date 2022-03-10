@@ -67,3 +67,27 @@ $pets = [
 
 //echo $pets['names'][1] . PHP_EOL; // Returns Freddie because it is on the 1st index on the
 // 'names' array within the $pet's array.
+
+$books = [
+    'Titles' => [
+        'Dead Until Dark',
+        'Dead in Dallas',
+        'Club Dead',
+        'Definitely Dead',
+        'Dead to the world',
+        'Dead in the family',
+        'Deadlocked',
+    ],
+    'Authors' => [
+        'Sarah'=> 'Waters',
+        'Charlaine'=> 'Harris',
+        'Bernard'=> 'Cornwell',
+        'Winston'=>'Graham',
+        'Ken'=>'Follet',
+        'Sara'=> 'Maas',
+        'Jonathan'=> 'Fowler',
+    ],
+];
+//echo $books['Titles'][3] . PHP_EOL; // Returns the 3rd index points in the $books['Titles'] array.
+//echo $books['Authors']['Ken'] . PHP_EOL; //Returns the value of Ken in the $books['Authors'] array.
+//echo count($books) . PHP_EOL; // Returns 2 because there are 2 arrays in the $books array.

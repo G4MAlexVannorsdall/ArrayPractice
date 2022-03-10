@@ -57,3 +57,15 @@ $Colors_Fruit = [
 //echo $Colors_Fruit['White'] . PHP_EOL; //Finds the value of white in the $Colors_Fruit array which is coconut.
 
 //echo count($Colors_Fruit) . PHP_EOL; // Finds the amount of key/value pairs in the $Colors_Fruit array which is 6.
+
+$items = [
+    'Boots'=>'Shoes',
+    'Blouse'=> 'Shirt',
+    'Jeans'=> 'Bottoms',
+    'Sunglasses'=>'Backpack',
+    'Cup'=>'Mug',
+    'Phone'=>'Mobile',
+    'Wallet'=>'Purse',
+];
+//echo $items['Cup'] . PHP_EOL; // Returns mug in the $items array by using its key which is Cup.
+//echo count($items) . PHP_EOL; // Counts the amount of key/values pairs in the $items array which is 7.
